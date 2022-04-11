@@ -9,12 +9,10 @@ public class B {
         LinkedList <String> vetor = new LinkedList<>();
 
         for (int i = 0; i < nomedaempresa.length();i++){
-
             char guardaletra = nomedaempresa.charAt(i);
             vetor.add(String.valueOf(guardaletra).toUpperCase());
             System.out.print(guardaletra + " ");
         }
-
         System.out.println("");
         System.out.println("Vetor completo, sem remoção de caracteres: " + vetor);
 
